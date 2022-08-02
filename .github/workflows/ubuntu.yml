@@ -11,6 +11,7 @@ on:
       - 1.4.x
     paths-ignore:
       - "doc/**"
+  workflow_dispatch: {}
 
 env:
   PANDAS_CI: 1
